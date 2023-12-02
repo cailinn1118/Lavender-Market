@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="with=device-width, initial-scale=1.0">
+   <title>Kaze Sushi</title>
+   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@700&display=swap" rel="stylesheet"> 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Solway&display=swap" rel="stylesheet"> 
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Solway:wght@300&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+   <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+  
+</head>
+<body>
+
+<header>
+ 
+    <input type="checkbox" name="" id="toggler">
+    <label for="toggler" class="fas fa-bars"></label>
+
+        <img src="Lavender market logo.jpg" class="logo">
+         
+        <nav class="navbar">
+           <ul>
+            <li><a href="All.html#Home">Home</a><i class="fa fa-home"></i></li>
+            <li><a href="All.html#About Us">About Us</a><i class="fa fa-camera"></i></li>
+            <li><a href="#All.htmlCategory">Category</a><i class="fa fa-lightbulb"></i></li>
+            <li>
+              <a href="app.js#Menu">Menu <i class="fas fa-caret-down"></i></a>
+ 
+                <div class="dropdown">
+                 <ul>
+                  <li><a href="index.html#Snacks&Sweets">Snacks&Swets</a></li>
+                  <li><a href="index.html#Beverages">Beverages</a></li>
+                  <li><a href="index.html#Canned,Jarred,Spices">Canned,Jarred,Spices</a></li>
+                  <li><a href="index.html#Meat&Dairy">Meat&Dairy</a></li>
+                 </ul>
+                </div>
+
+            </li>
+            <li><a href="All.html#Review">Review</a><i class="fa fa-comment"></i></li>
+            <li><a href="Login.html">Login</a><i class="fa fa-user"></i></li>
+           </ul>        
+        </nav>
+ 
+
+</header>
+
+     <section class="#Home" id="#Home">
+
+       <div id="Home" class="welcome">
+            <div class="animated-text">
+               <div class="line">WELCOME</div>
+               <div class="line">TO</div>
+               <div class="line">LAVENDER</div>
+               <div class="line">MARKET</div>
+               <div class="line"><span>&#10084;</span></div>
+            </div>
+          </div>  
+       </div>
+            
+       
+        <div class="content">
+         <div class="slider">
+            <div class="slides">
+               <input type="radio" name="radio-btn" id="radio1">
+               <input type="radio" name="radio-btn" id="radio2">
+               <input type="radio" name="radio-btn" id="radio3">
+               <input type="radio" name="radio-btn" id="radio4">
+           
+               <div class="slide first">
+                 <img src="snacks&sweets photo.jpg" alt="Snacks&Sweets">
+               </div>
+               <div class="slide">
+                 <img src="beverages photo.jpg" alt="Beverages">
+               </div>
+               <div class="slide">
+                 <img src="canned,jarred,spices photo.jpg" alt="Canned,Jarred,Spices">
+               </div>
+               <div class="slide"> 
+                 <img src="meat&dairy photo.jpg" alt="Meat&Dairy">
+               </div>
+     
+               <div class="navigation-auto">
+                 <div class="auto-btn1"></div>
+                 <div class="auto-btn2"></div> 
+                 <div class="auto-btn3"></div>
+                 <div class="auto-btn4"></div> 
+               </div>
+            </div>
+
+            <div class="navigation-manual">
+               <label for="radio1" class="manual-btn"></label>
+               <label for="radio2" class="manual-btn"></label>
+               <label for="radio3" class="manual-btn"></label>
+               <label for="radio4" class="manual-btn"></label>
+            </div>
+         </div>
+    
+
+         <script type="text/javascript">
+         var counter = 1;
+         setInterval(function(){
+           document.getElementById('radio' + counter).checked = true;
+           counter++;
+           if(counter > 5){
+              counter = 1;
+           }
+         }, 6000);
+         </script>
+
+
+     </section>
+
+
+<section class="#About Us" id="About Us">
+
+
+   <div id="About Us" class="wow">
+             <div class="image">
+                <img src="background-image.jpg" alt="hello">
+                   <div class="writing">
+                     <h1>Lavender Market</h1>
+                     <span> Largest Market in Malaysia </span>
+                     <p>Welcome to LAVENDER MARKET! Here we provide the main food that people need in daily life!!!</p>
+                     <a href="Login.html" class="btn2">Login Now</a>
+                   </div>
+             </div>
+   </div>
+
+   <div id="About Us" class="sexybody">
+    
+       <div class="box1">
+            <img src="about 1.jpg" alt="">
+            <h2>VARIOUS OF CHOICES</h2>
+            <p>The tearful choice makes you hesitant~~~</p>
+       </div>
+       <div class="box1">
+            <img src="about 2.jpg" alt="">
+            <h2>Fastttttttttt Delivery</h2>
+            <p>The goods will arrive in the blink of an eye</p>
+       </div>
+       <div class="box1">
+            <img src="about 3.jpg" alt="">
+            <h2>Quality Assurance</h2>
+            <p>We only sell items we trust/p>
+       </div> 
+   </div>     
+
+     <div id="About Us" class="container">
+             <div class="picture">
+                <img src="lavender.jpg" alt="history">
+                <div class="heading">
+                   <h1>ABOUT US</h1>
+                   <p>Although the selection of products we sell is not large, they all meet the needs of people in modern society and can be used to satisfy hunger, as snacks, and to eat when cravings arise.<p>
+                </div>
+             </div>
+     </div>
+
+</section>
+
+<section class="#Category" id="Category">
+
+    <h1 class="j">Products Category !</h1>
+
+    <div class="ehh">
+
+        <div class="box7">
+            <img src="rok1.jpg" alt="">
+            <h3>Snacks&Sweets</h3>
+            <a href="index.html#Snacks&Sweets" class="btn7">view more</a>
+        </div>
+
+        <div class="box7">
+            <img src="rok2.jpg" alt="">
+            <h3>Beverages</h3>
+            <a href="index.html#Beverages" class="btn7">view more</a>
+        </div>
+
+        <div class="box7">
+            <img src="rok3.jpg" alt="">
+            <h3>Canned,Jarred,Spices</h3>
+            <a href="index.html#Canned,Jarred,Spices" class="btn7">view more</a>
+        </div>
+
+        <div class="box7">
+            <img src="rok4.jpg" alt="">
+            <h3>Meat&Dairy</h3>
+            <a href="index.html#Meat&Dairy" class="btn7">view more</a>
+        </div>
+
+    </div>
+
+</section>
+<section class="#Review" id="Review">
+
+<div class="bagos">
+     <div class="jiji">
+        <div class="l">Customer's <span>Review</span> </div>
+     </div>
+
+  <div class="box-containeraa">
+
+    <div class="boxa">
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+        </div>
+        <p>Shipping is fast !The products are also very complete !Great~!</p>
+        <div class="user">
+            <img src="1.jpg" alt="">
+            <div class="user-info">
+                <h3>Cassentra Lim</h3>
+                <span>wowcustomer</span>
+            </div>
+        </div>
+        <i class="fas fa-quote-right"></i>
+    </div>
+
+    <div class="boxa">
+        <div class="star">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half"></i>
+        </div>
+        <p>Hope to open more branches in MAS!</p>
+        <div class="user">
+            <img src="2.jpg" alt="">
+            <div class="user-info">
+                <h3>Sarah Lee</h3>
+                <span>hapicustomer</span>
+            </div>
+        </div>
+        <i class="fas fa-quote-right"></i>
+    </div>
+
+  </div>
+
+</div>
+    
+</section>
+
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3> Lavender Market <i class="fas-thin fa-flower"></i> </h3>
+            <p>Thank you for support our groceries! You can just share our store through any social media that you like!</p>
+            <div class="share">
+                <a href="#" class="fab fa-facebook-f"></a>
+                <a href="#" class="fab fa-twitter"></a>
+                <a href="#" class="fab fa-instagram"></a>
+                <a href="#" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+
+        <div class="box">
+            <h3>Contact Info</h3>
+            <a href="#" class="links"> <i class="fas fa-phone"></i> +6011-11967189 </a>
+            <a href="#" class="links"> <i class="fas fa-clock"></i> 8:00am to 10.00pm </a>
+            <a href="#" class="links"> <i class="fas fa-envelope"></i> lavendermarket@gmail.com </a>
+            <a href="#" class="links"> <i class="fas fa-map-marker-alt"></i>32,Jalan Market 12, Taman Lavender ,31650,Ipoh,Perak,Malaysia. </a>
+        </div>
+
+        <div class="box">
+            <h3>Quick Links</h3>
+            <a href="All.ht,l#Home" class="links"> <i class="fas fa-arrow-right"></i> home </a>
+            <a href="All.html#About Us" class="links"> <i class="fas fa-arrow-right"></i> about us </a>
+            <a href="All.html#Category" class="links"> <i class="fas fa-arrow-right"></i> category </a>
+            <a href="index.html" class="links"> <i class="fas fa-arrow-right"></i> menu </a>
+            <a href="All.html#Review" class="links"> <i class="fas fa-arrow-right"></i> review </a>
+            <a href="Login.html" class="links"> <i class="fas fa-arrow-right"></i> login </a>
+        </div>
+
+        <div class="box">
+            <h3>Newsletter</h3>
+            <p>Just enter your purchase order code for a chance to get a free shipping coupon for ur next purchase !</p>
+             <input type="email" name="email" class="email" placeholder="Please enter ur purchase order code!!!" required>
+            <button type="submit" class="btn1">Purchase Order Code</button>
+        </div>
+
+    </div>
+
+    <div class="credit"> created by <span> lavender market ipoh </span> | all rights reserved </div>
+
+</section>
+
+<script src="hehe.js"></script>
+<script src="play.js"></script>
+<script src="search.js"></script>
+<script src="script.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
