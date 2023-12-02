@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: none;
+    transition :2s linear;
+  }
+  
+  html{
+    font-size: 20%;
+    scroll-behavior: smooth;
+    scroll-padding: 47rem;
+  } 
+   
+  header{
+    position: fixed;
+    top: 0; left: 0; right: 0;
+    background: #ffe8a9;
+    padding:0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1000;
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
+  }  
+  
+  header #toggler{
+      display: none;
+  }
+  
+  header .fa-bars{
+      font-size: 3rem;
+      color:#ee9e9e;
+      border-radius: .5rem;
+      padding:.5rem 1rem;
+      cursor: pointer;
+      border:.1rem solid rgba(0,0,0,.3);
+      display: none;
+  }
+  
+  .btn2{
+      display: inline-block;
+      margin-top: 3rem;
+      border-radius: 5rem;
+      background:#333;
+      color:#fff;
+      padding:.9rem 3.5rem;
+      cursor: pointer;
+      font-size: 5rem;
+  }
+  
+  .btn2:hover{
+      background: rgb(233, 192, 159);
+  }
+               
+  .logo{
+    width: 140px;
+    cursor: pointer;
+  } 
+              
+  .navbar a{
+    font-size: 1.7rem;
+    padding:0 1.5rem;
+    color: #0d13a8;
+  }
+  
+  .navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 13px;
+  }
+  
+  .navbar ul li a{
+    font-family: 'Inconsolata',monospace;
+    color: #0d13a8;
+    text-decoration: none;
+    text-spacing: 2px;
+    font-size: 18px;
+    font-weight: 600;
+  
+  }
+  
+  .navbar ul li::after{
+    content:'';
+    width: 0%;
+    height: 2px;
+    background: #f50707;
+    display: block;
+    margin: auto;
+    transition: 0.4s;
+  }
+  
+  .navbar ul li:hover::after{
+    width: 100%;
+  }
+  
+  .dropdown{
+    display: none;
+  }
+    
+  .navbar ul li:hover .dropdown{
+    display: block;
+    position: absolute;
+    background-color: #ffe8a9;
+  }
+  
+  .navbar ul li:hover .dropdown ul{
+    position: absolute;
+    display: block;
+    background-color: #ffe8a9;
+  }
+   
+  .navbar ul li:hover .dropdown ul li{
+    width: 230px;
+    height: 50px;
+    padding: 8px;
+    margin-left: 0px;
+  }
+  
+  .navbar .fa{
+    color: #0d13a8;
+    border-radius: 3px;
+    padding: 5px;
+  }
+  
+  header .icons i{
+      cursor: pointer;
+      margin-left: 4rem;
+      height:4.5rem;
+      line-height: 4.5rem;
+      width:4.5rem;
+      text-align: center;
+      font-size: 7rem;
+      color: #000;
+      border-radius: 50%;
+  }
+  
+  header .icons i:hover{
+      color: #f50707;
+  }
+  
+  header .icons #{
+      display: none;
+
+  }
+.ok2{
+    padding-top: 375px;
+    padding-left: 680px;
+    height: 100%;
+    width: 100%;
+    background: #e270c2;
+  }
+  
+  .ok2 .gun .modal-box{
+    display: absolute;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    max-width: 300px;
+    width: 100%;
+    padding: 35px 25px;
+    border-radius: 24px;
+    background-color: #ee9d9d;
+    box-shadow: 2px 2px 40px #f9e076;
+    transform: translate(-50%, -50%) scale(1.2);
+    
+  }
+  
+  .ok2 .gun .modal-box i {
+    font-size: 70px;
+    color: rgb(9, 124, 187);
+  }
+  
+  .ok2 .gun .modal-box h2 {
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    color: #eaa3a3;
+  }
+  
+  .ok2 .gun .modal-box h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #e29595333;
+    text-align: center;
+  }
+  
+  .ok2 .rok-btn{    
+      display: inline-block;
+      margin-top: 3rem;
+      border-radius: 1rem;
+      background:#ea9898;
+      color:#fff;
+      padding:1rem 4rem;
+      cursor: pointer;
+      font-size: 6rem;
+  }
+  
+  .ok2 .rok-btn:hover{
+      background: #8f5bbb;
+  }
